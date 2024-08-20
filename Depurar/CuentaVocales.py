@@ -1,6 +1,6 @@
 def contar_vocales(palabra):
     vocales = "aeiouAEIOU"
-    contador = 0
+    contador = 0    
     for letra in palabra:
         if letra in vocales:
             contador += 1
